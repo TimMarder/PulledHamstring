@@ -3,7 +3,7 @@
 class Ball 
 {
 //instance variables
-int radius;  //raidus of the ball
+int radius;  //radius of the ball
 float xSpeed;  //speed in the x direction
 float ySpeed;  //speed in the y direction
 float xCor;    //current x pos
@@ -35,10 +35,10 @@ void draw() {
   yCor += ySpeed;
   
   //allows it to bounce by reversing direction when it hits a wall
-  if (xCor >= 600 || xCor <= 0) {
+  if (xCor >= width || xCor <= 0) {
     xSpeed = -(xSpeed);
   }
-  if (yCor >= 600 || yCor <= 0){
+  if (yCor >= height || yCor <= 0){
     ySpeed = -(ySpeed);
   }
   
