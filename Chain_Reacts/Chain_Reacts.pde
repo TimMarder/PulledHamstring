@@ -1,4 +1,9 @@
-//Pulled Hamstring - Rubin Peci, Tim Marder, Daniel Gelfand
+/*
+Pulled Hamstring - Rubin Peci, Tim Marder, Daniel Gelfand
+APCS2 pd02
+HW#52 -- All That Bouncin’
+2018-05-24
+*/
 
 //Create an array of balls
 Ball[] balls;
