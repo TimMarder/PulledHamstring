@@ -27,8 +27,8 @@ class Ball {
 
   //constructor
   Ball() {
-    xVel = random(1, 10);
-    yVel = random(1, 10);
+    xVel = random(1, 10) - 5;
+    yVel = random(1, 10) - 5;
     c = color(random(256), random(256), random(256));
     radius = 25;
 
