@@ -29,7 +29,7 @@ class Ball {
   Ball() {
     xVel = random(1, 10) - 5;
     yVel = random(1, 10) - 5;
-    c = color(random(256), random(256), random(256));
+    c = color(0, random(50), random(100,256));
     radius = 25;
 
     //start int he middle

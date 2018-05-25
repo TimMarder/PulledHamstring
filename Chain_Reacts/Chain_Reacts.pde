@@ -33,6 +33,7 @@ void draw() {
     //if not dead the ball should change 
     curr.change(); 
     //color the Ball
+    noStroke();
     fill(curr.c); 
     //draw the ball
     ellipse(curr.xCor, curr.yCor, curr.radius, curr.radius);
